@@ -2,15 +2,15 @@
   "name": "calculon",
   "version": "1.0.0",
   "description": "Species: Robot: Age: 1052: Proffesion: Actor",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "Jonathan Fachola",
   "license": "ISC",
   "dependencies": {
     "connect": "^3.5.0",
-    "node": "0.0.0",
     "nodemon": "^1.10.2"
   }
 }
